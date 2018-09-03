@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9ba747">
+
+    <LinearLayout
+        android:id="@+id/selectLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:id="@+id/borderLinearLayout1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/layout_style">
+
+            <com.hx.curtain.drawer.CurtainContentLayout
+                android:id="@+id/curtainContentLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:behind_menu="@layout/menu_left"
+                app:content="@layout/layout_curtain_content"
+                app:h_waveCount="6"
+                app:maxRate="0.5"
+                app:v_waveCount="2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:id="@+id/borderLinearLayout2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/layout_style">
+
+            <com.hx.curtain.drawer.CurtainContentLayout
+                android:id="@+id/curtainContentLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:behind_menu="@layout/menu_left2"
+                app:content="@layout/layout_curtain_content"
+                app:h_waveCount="6"
+                app:maxRate="0.5"
+                app:v_waveCount="2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:id="@+id/borderLinearLayout3"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/layout_style">
+
+            <com.hx.curtain.drawer.CurtainContentLayout
+                android:id="@+id/curtainContentLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:behind_menu="@layout/menu_left3"
+                app:content="@layout/layout_curtain_content"
+                app:h_waveCount="6"
+                app:maxRate="0.5"
+                app:v_waveCount="2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="invisible"
+        android:id="@+id/resultDisplayLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.like.LikeButton
+            app:unlike_drawable="@drawable/question"
+            android:id="@+id/likeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon_size="100dp"
+            app:liked="false"/>
+    </LinearLayout>
+</RelativeLayout>
