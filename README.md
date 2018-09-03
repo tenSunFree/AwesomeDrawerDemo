@@ -15,12 +15,12 @@ https://github.com/jd-alexander/LikeButton
 預覽
 --------
 <p align="left">
-  <img src="https://i.imgur.com/yTgTund.png" width="260"/>
+  <img src="https://i.imgur.com/yTgTund.png" width="350"/>
 </p> 
 <p align="left">
-  <img src="https://i.imgur.com/Z2HDM6c.png" width="260"/>
+  <img src="https://i.imgur.com/Z2HDM6c.png" width="350"/>
 </p> 
 <p align="left">
-  <img src="https://i.imgur.com/5j2eMvl.png" width="260"/>
+  <img src="https://i.imgur.com/5j2eMvl.png" width="350"/>
 </p> 
 
